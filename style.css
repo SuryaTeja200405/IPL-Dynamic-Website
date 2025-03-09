@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav-bg {
+    background-image: linear-gradient(to right, #182070, #1a2845, #451b80, #30708a);
+}
+
+#nav-togler-bg {
+    background-color: white;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#navitem1 {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Cursive";
+}
+
+#navitem2 {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Cursive";
+}
+
+#navitem3 {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Cursive";
+}
+
+#navitem4 {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Cursive";
+}
+
+#navitem5 {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Cursive";
+}
+
+.home-section-bg {
+    background-image: url("https://res.cloudinary.com/dunateixc/image/upload/v1733551150/stadium_bg_lzr3ha.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.teams-section-bg {
+    background-image: linear-gradient(to right, #183b73, #185c73, #381873);
+    padding: 35px;
+
+
+}
+
+.teams-section-heading {
+    color: white;
+    font-family: "AlineaBold";
+    font-weight: bold;
+    font-size: 40px;
+    padding: 6px;
+}
+
+.team-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+
+.team-card-top-section {
+    height: 160px;
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-card-bottom-section {
+    padding: 30px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.team-name {
+    font-size: 20px;
+    font-family: "Cursive";
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.stats-section-bg {
+    background-image: url("https://res.cloudinary.com/dunateixc/image/upload/v1733663983/IPL_1730709881315_1730821501216_rihle0.avif");
+    width: 100%;
+    background-size: cover;
+    padding: 10px;
+}
+
+.stat-card {
+    background-image: linear-gradient(to right, #1f193b, #6e4f75, #91537f);
+    border-radius: 30px;
+
+    margin: 35px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    /* Moves the card up slightly */
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.stat-card-heading {
+    color: white;
+    font-family: "Cursive";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.stat-card-name {
+    font-family: "Cursive";
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+}
+
+.stat-card-description1 {
+    color: #4f0614;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.stat-card-description2 {
+    color: #525157;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+}
+
+.button-outline {
+    border-width: 2px;
+    background-color: red;
+
+
+}
+
+.top-buys-section {
+    background-color: #31365e;
+
+
+}
+
+.auction-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #4ea0ed;
+}
+
+.auction-table thead {
+    background-color: #122436;
+
+}
+
+
+
+.auction-table th,
+.auction-table td {
+
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-color: #0d102b;
+    border-width: 3px;
+}
+
+.auction-table tbody tr:nth-child(even) {
+    background-color: #166187;
+}
+
+.auction-table img {
+    width: 50px;
+    height: 50px;
+
+
+    border-radius: 50%;
+}
+
+.auction-table tbody tr:hover {
+    background-color: black;
+}
+
+.theory-section {
+    background-color: #2e1c4d;
+    padding: 20px;
+}
+
+.auction-sec-theory {
+    color: white;
+    font-family: Cursive;
+    font-weight: 500;
+
+}
+
+.news-section {
+    background-color: #1f0d2b;
+}
+
+.news-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 35px;
+
+}
+
+
+
+.news-card-top-section {
+    width: 100%;
+    border-bottom-left-radius: 100% 10px;
+    border-bottom-right-radius: 100% 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.news-card-top-section {
+    width: 100%;
+}
+
+.news-card-bottom-section {
+    padding: 30px;
+    color: #ffffff;
+    font-weight: bold;
+
+
+}
+
+.sponcers-section {
+    background-color: #0e0e24;
+
+
+}
+
+.copyright-section {
+    background-color: #0d0d17;
+}
+
+.copyright-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.booking-body {
+    font-family: Arial, sans-serif;
+    background-color: #31365e;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:20px;
+}
+.booking-container {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+label{
+    color:white;
+    font-family: "AlineaBold";
+    font-weight: 500;
+    font-size: 22px;
+}
+.select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-button{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-button {
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.booking-button:hover {
+    background-color: #026aa7;
+}
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+.booking-main-heading{
+    color:#e9f0f0;
+    font-weight: bolder;
+    font-size:50px;
+
+}
+
+
+
+
+.nav-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.logo span{
+    color: rgb(109,67, 0);
+    text-shadow: 0 0 10px rgb(109,67, 0);
+}
+
+.hamburg, .cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: black;
+    font-size: 2rem;
+    display: none;
+}
+
+.nav-container .links {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.nav-container .links a{
+    position: relative;
+    font-size: 1.4rem;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    transform: 0.3s linear;
+}
+
+.nav-container .links a::before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(109, 0, 0);
+    transition: 0.2s linear;
+}
+
+.nav-container .links a:hover::before{
+    width: 100%;
+}
+
+
+.nav-container .links a:hover{
+    color: rgb(16, 6, 6);
+}
+
+.dropdown{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    transform: translateY(-500px);
+    width: 100%;
+    height: auto;
+    backdrop-filter: brightness(40%) blur(3px);
+    box-shadow: 0 0 20px black;
+    transition: 0.2s linear;
+}
+
+.dropdown .links a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 0;
+    align-items: center;
+    transition: 0.2s linear;
+}
+
+.dropdown .links a:hover{
+    background-color: rgb(109,67, 0);
+}
